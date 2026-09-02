@@ -1,16 +1,26 @@
 ---
 name: "engineering-principles"
 displayName: "Engineering Principles"
-description: "Portable, stack-agnostic engineering judgment rules. Encodes universal decisions like reuse before creating, extend existing functionality when it doesn't hurt usability (otherwise create new and flag it), follow the existing structure, and never hardcode secrets. Applies across any project; stack-specific mechanics belong in per-repo steering."
+description: "Portable, stack-agnostic engineering judgment rules. Activate by saying \"use engineering-principles\". Encodes universal decisions like reuse before creating, extend existing functionality when it doesn't hurt usability (otherwise create new and flag it), follow the existing structure, and never hardcode secrets. Applies across any project; stack-specific mechanics belong in per-repo steering."
 keywords: ["coding-standards", "engineering-principles", "code-quality", "reuse", "conventions", "best-practices"]
 author: "Dean Clegg"
 ---
 
 # Engineering Principles
 
-> **Status: early scaffold (v0.1.0).** The rule list is a starting draft and
+> **Version: 0.2.0 (early scaffold).** The rule list is a starting draft and
 > still being tightened. See `POWER-INTENT.md` for the design intent and open
 > decisions.
+
+## Activation
+
+Activate by saying **"use engineering-principles"**. On activation, the power
+**announces its version** so you can confirm which version is loaded, for
+example:
+
+> Engineering Principles **v0.2.0** active — applying universal judgment rules.
+
+It then applies the principles below to code work in the session.
 
 ## Overview
 

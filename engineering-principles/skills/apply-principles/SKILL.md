@@ -4,7 +4,7 @@ description: "Apply universal, stack-agnostic engineering judgment rules while w
 license: "MIT"
 metadata:
   author: "Dean Clegg"
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Apply Engineering Principles
@@ -14,8 +14,19 @@ A short set of universal judgment rules that guide day-to-day coding decisions
 regardless of language or framework. Stack-specific mechanics live in per-repo
 steering, not here.
 
-> STATUS: SCAFFOLD. The rules below are a starting draft. Keep the final list
-> tight (~8–12) and include only rules that change a decision.
+> STATUS: SCAFFOLD (v0.2.0). The rules below are a starting draft. Keep the final
+> list tight (~8–12) and include only rules that change a decision.
+
+## Activation
+This power is version **0.2.0**.
+
+When the user says **"use engineering-principles"**, announce activation and
+state the version so it can be verified, then apply the principles below:
+
+> Engineering Principles **v0.2.0** active — applying universal judgment rules.
+
+Keep this version string in sync with `version` in `plugin.json` and `POWER.md`
+whenever it is bumped.
 
 ## Principles (draft)
 
