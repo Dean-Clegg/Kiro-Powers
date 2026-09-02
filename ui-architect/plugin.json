@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ui-architect",
+  "version": "1.2.0",
+  "description": "UI/UX architect that designs and reviews UI one screen at a time. Activate by saying \"use ui-architect\". Detects your design system, then does a touch-up, a polish with suggestions, or a full redesign \u2014 always building from your own components and theme.",
+  "author": {
+    "name": "Dean Clegg"
+  },
+  "keywords": [
+    "ui-design",
+    "ux",
+    "screen-design",
+    "design-review",
+    "redesign-screen",
+    "design-system",
+    "microcopy"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Dean-Clegg/Kiro-Powers/tree/main/ui-architect",
+  "repository": "https://github.com/Dean-Clegg/Kiro-Powers.git"
+}

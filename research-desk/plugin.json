@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "research-desk",
+  "version": "0.1.0",
+  "description": "Evidence-first research assistant. Activate by asking to research or investigate a topic. Takes its time, searches multiple sources, backs every claim with a citation, clearly separates verified facts from inference, and can export findings to Markdown, CSV, or PDF on request.",
+  "author": {
+    "name": "Dean Clegg"
+  },
+  "keywords": [
+    "research",
+    "citations",
+    "fact-checking",
+    "anti-hallucination",
+    "export",
+    "report",
+    "investigation"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Dean-Clegg/Kiro-Powers/tree/main/research-desk",
+  "repository": "https://github.com/Dean-Clegg/Kiro-Powers.git"
+}

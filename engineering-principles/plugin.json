@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "engineering-principles",
+  "version": "0.1.0",
+  "description": "Portable, stack-agnostic engineering judgment rules. Encodes universal decisions like reuse before creating, extend existing functionality when it doesn't hurt usability (otherwise create new and flag it), follow the existing structure, and never hardcode secrets. Applies across any project; stack-specific mechanics belong in per-repo steering.",
+  "author": {
+    "name": "Dean Clegg"
+  },
+  "keywords": [
+    "coding-standards",
+    "engineering-principles",
+    "code-quality",
+    "reuse",
+    "conventions",
+    "best-practices"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Dean-Clegg/Kiro-Powers/tree/main/engineering-principles",
+  "repository": "https://github.com/Dean-Clegg/Kiro-Powers.git"
+}
