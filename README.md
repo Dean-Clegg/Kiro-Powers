@@ -11,9 +11,6 @@ Each power lives in its own directory and can be installed independently.
 | [`research-desk`](./research-desk) | Evidence-first research assistant that cites every claim and can export findings to Markdown, CSV, or PDF. |
 | [`engineering-principles`](./engineering-principles) | Portable, stack-agnostic engineering judgment rules (reuse before create, extend-or-flag, follow existing structure). |
 
-> `research-desk` and `engineering-principles` are early scaffolds (v0.1.0).
-> See each power's `POWER-INTENT.md` for the design intent and open decisions.
-
 ## Installing a power
 
 This repository holds multiple powers, each in its own subdirectory. To install
