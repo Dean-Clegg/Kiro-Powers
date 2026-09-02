@@ -16,11 +16,41 @@ Each power lives in its own directory and can be installed independently.
 
 ## Installing a power
 
-In Kiro, open the Powers panel, choose **Add Custom Power → Import from GitHub**,
-and provide this repository. A single repository can contain multiple powers,
-each in its own directory.
+This repository holds multiple powers, each in its own subdirectory. To install
+a single power, use its **`/tree/main/<power>` URL** — not the bare repo URL.
 
-Repository: https://github.com/Dean-Clegg/Kiro-Powers
+Steps in Kiro:
+
+1. Open the Powers panel (Ghosty icon with the lightning bolt).
+2. **Add Custom Power → Import power from GitHub**.
+3. Paste the power's URL below and click **Install**.
+
+> **Important:** paste the full `/tree/main/<power>` path. Pasting the bare repo
+> URL (`https://github.com/Dean-Clegg/Kiro-Powers`) installs the entire repo as
+> one power instead of the individual power you want.
+
+### Install URLs
+
+Each URL is in its own code block — on GitHub, hover the block and use the
+one-click **copy** button in the top-right corner.
+
+**ui-architect**
+
+```
+https://github.com/Dean-Clegg/Kiro-Powers/tree/main/ui-architect
+```
+
+**research-desk**
+
+```
+https://github.com/Dean-Clegg/Kiro-Powers/tree/main/research-desk
+```
+
+**engineering-principles**
+
+```
+https://github.com/Dean-Clegg/Kiro-Powers/tree/main/engineering-principles
+```
 
 ## Repository layout
 
@@ -40,8 +70,9 @@ Each power has its own `plugin.json` at its directory root, per the
 ## Versioning
 
 Each power is versioned independently via the `version` field in its
-`plugin.json`. Bump that value when releasing changes so Kiro's
-**Check for updates** picks them up.
+`plugin.json`. Bump that value and push to `main` when releasing changes so
+Kiro's **Check for updates** picks them up. The install URLs above pin to the
+`main` branch, so publishing on `main` is what makes updates flow.
 
 ## License
 
